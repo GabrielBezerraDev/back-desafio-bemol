@@ -1,0 +1,106 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres_db
+    environment:
+      POSTGRES_DB: bemoldb
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - bemol_network
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+  ollama1:
+    build: .
+    container_name: ollama1
+    volumes:
+      - /usr/share/ollama/.ollama/models:/root/.ollama/models
+    deploy:
+          resources:
+            reservations:
+              devices:
+                - driver: nvidia
+                  count: all
+                  capabilities: [gpu]
+    networks:
+      - bemol_network
+    ports:
+      - "11433:11434"  # Mantendo a porta interna padrão
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    restart: unless-stopped
+
+  ollama2:
+    build: .
+    container_name: ollama2
+    volumes:
+      - /usr/share/ollama/.ollama/models:/root/.ollama/models
+    deploy:
+        resources:
+          reservations:
+            devices:
+              - driver: nvidia
+                count: all
+                capabilities: [gpu]
+    networks:
+      - bemol_network
+    ports:
+      - "11435:11434"  # Corrigido
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    restart: unless-stopped
+
+  ollama3:
+    build: .
+    container_name: ollama3
+    volumes:
+      - /usr/share/ollama/.ollama/models:/root/.ollama/models
+    deploy:
+          resources:
+            reservations:
+              devices:
+                - driver: nvidia
+                  count: all
+                  capabilities: [gpu]
+    networks:
+      - bemol_network
+    ports:
+      - "11436:11434"  
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    restart: unless-stopped
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+  lb:
+    image: nginx:latest
+    container_name: nginx_lb
+    networks:
+      - bemol_network 
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - ollama1
+      - ollama2
+      - ollama3
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  ollama_models:
+  redis_data:
+
+networks:
+  bemol_network:
+    driver: bridge
