@@ -10,6 +10,9 @@ export class ChatHistory {
     @Column('text') 
     content: string;
 
+    @Column('text') 
+    responseIA: string;
+
     @Column({ 
         type: 'timestamp', 
         default: () => 'CURRENT_TIMESTAMP' 

@@ -18,7 +18,7 @@ export class AuthService {
         const userDB = await this.checkUserExist(user);
         if (userDB.length > 0) {
             if (bcrypt.compareSync(user.password, userDB[0].password)) {
-                return user;
+                return userDB;
             }
         }
         return null;

@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString, Length } from "class-validator";
+import { isInt, IsNotEmpty, IsString, Length } from "class-validator";
 import { User } from "src/user/entities/user.entity";
 import { Column, Entity, JoinColumn, OneToOne, PrimaryGeneratedColumn } from "typeorm";
 
@@ -37,6 +37,10 @@ export class Address {
 
     @Column()
     userId: number;
+
+    @Column()
+    houseNumber: number;
+
 
 
 }

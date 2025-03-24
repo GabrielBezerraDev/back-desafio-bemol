@@ -11,7 +11,7 @@ import { User } from 'src/user/entities/user.entity';
 export class AuthController {
     constructor(private authService: AuthService) { }
 
-    @HttpCode(HttpStatus.UNAUTHORIZED)
+    @HttpCode(HttpStatus.OK)
     @Post('login')
     async login(@Body() userDTO: LoginUserDto, @Session() session) {
         let result = await this.authService.login(userDTO);
@@ -23,20 +23,23 @@ export class AuthController {
         return result;
     }
 
-    @HttpCode(HttpStatus.CONFLICT)
+    @HttpCode(HttpStatus.CREATED)
     @Post('sign-up')
-    async SignUp(@Body() userDTO: CreateUserDto) {
+    async SignUp(@Body() userDTO: CreateUserDto, @Session() session) {
         console.log(userDTO);
         let result = await this.authService.checkUserExist(userDTO);
         let newUser: User | null = null;
-        if (result.length === 0) newUser = await this.authService.createUser(userDTO);
+        if (result.length === 0) {
+            newUser = await this.authService.createUser(userDTO);
+            session.user = { ...result };
+        }
         else {
             throw new ConflictException('Usuário existente!.');
         }
         return newUser;
     }
 
-    @HttpCode(HttpStatus.BAD_REQUEST)
+    @HttpCode(HttpStatus.OK)
     @Post('logout')
     logout(@Session() session, @Res() res: Response) {
         session.destroy(() => {
