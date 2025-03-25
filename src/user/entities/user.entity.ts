@@ -40,7 +40,4 @@ export class User {
     @Column({ length: 255 })
     password: string;
 
-    // async comparePassword(plainPassword: string): Promise<boolean> {
-    //     return bcrypt.compare(plainPassword, this.password);
-    // }
 }

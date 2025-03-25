@@ -1,0 +1,240 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="mzY4w5g9W0rU60INsJUi">
+        <mxGraphModel dx="995" dy="1777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-1" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="470" y="180" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-1" vertex="1">
+                    <mxGeometry width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-3" value="&amp;lt;&amp;lt;config&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-1" vertex="1">
+                    <mxGeometry x="60" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-4" value="app.config.ts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-1" vertex="1">
+                    <mxGeometry x="60" y="70" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-5" value="Arquivo que configura Aplicação Angular" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-1" vertex="1">
+                    <mxGeometry x="31.189999999999998" y="130" width="117.62" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-8" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="440" y="-100" width="310" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-8" vertex="1">
+                    <mxGeometry x="20" y="30" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-10" value="&amp;lt;&amp;lt;bootstrap app&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-8" vertex="1">
+                    <mxGeometry x="46.665000000000006" y="42.5" width="146.67" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-11" value="main.ts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-8" vertex="1">
+                    <mxGeometry x="68.33333333333333" y="87.5" width="103.33333333333334" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-12" value="Arquivo que inicializa aplicação Angular" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-8" vertex="1">
+                    <mxGeometry x="44.36" y="130" width="151.28" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9ntFp-F7QLPN8F0OSKsR-9" target="9ntFp-F7QLPN8F0OSKsR-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="133" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-45" value="&lt;b&gt;Configura aplicação&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9ntFp-F7QLPN8F0OSKsR-16" connectable="0" vertex="1">
+                    <mxGeometry x="-0.0875" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-17" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="435" y="410" width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-17" vertex="1">
+                    <mxGeometry width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-19" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-17" vertex="1">
+                    <mxGeometry x="95" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-20" value="AppComponent&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-17" vertex="1">
+                    <mxGeometry x="90" y="70" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-21" value="Primeiro Component a ser renderizado pela aplicação.&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;Obs: A partir do Angular 17, o AppComponent Standalone substitui o AppModue.&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-17" vertex="1">
+                    <mxGeometry x="35.595" y="102" width="178.81" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9ntFp-F7QLPN8F0OSKsR-2" target="9ntFp-F7QLPN8F0OSKsR-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-46" value="&lt;b&gt;Inicializa o primeiro componente&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9ntFp-F7QLPN8F0OSKsR-26" connectable="0" vertex="1">
+                    <mxGeometry x="-0.048" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-28" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="470" y="710" width="180" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-30" value="&amp;lt;&amp;lt;Document HTML&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-28" vertex="1">
+                    <mxGeometry x="20" y="10" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-31" value="index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-28" vertex="1">
+                    <mxGeometry x="60" y="70" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-32" value="O document da nossa single page application" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-28" vertex="1">
+                    <mxGeometry x="31.189999999999998" y="130" width="117.62" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-34" value="" style="group;fontStyle=1" parent="9ntFp-F7QLPN8F0OSKsR-28" connectable="0" vertex="1">
+                    <mxGeometry y="20" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-35" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-34" vertex="1">
+                    <mxGeometry width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-36" value="&amp;lt;&amp;lt;routes&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-34" vertex="1">
+                    <mxGeometry x="60" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-37" value="app.routes.ts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-34" vertex="1">
+                    <mxGeometry x="60" y="70" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-38" value="O principal redirecionador de rotas da aplicação" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-34" vertex="1">
+                    <mxGeometry x="31.189999999999998" y="130" width="117.62" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-40" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="450" y="960" width="240" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-41" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-40" vertex="1">
+                    <mxGeometry width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-42" value="&amp;lt;&amp;lt;module&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-40" vertex="1">
+                    <mxGeometry x="80" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-43" value="HomeModule" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-40" vertex="1">
+                    <mxGeometry x="80" y="70" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-44" value="Módulo responsável por conter as principais funcionalidades do software. Como a conversa com o Assistente Virtual da Bemol" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-40" vertex="1">
+                    <mxGeometry x="15.599999999999998" y="140" width="188.81" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9ntFp-F7QLPN8F0OSKsR-18" target="9ntFp-F7QLPN8F0OSKsR-35" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-47" value="&lt;b&gt;Inicializa o principal arquivo de mapeamento de rotas&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9ntFp-F7QLPN8F0OSKsR-39" connectable="0" vertex="1">
+                    <mxGeometry x="0.015" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9ntFp-F7QLPN8F0OSKsR-35" target="9ntFp-F7QLPN8F0OSKsR-41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-49" value="&lt;b&gt;Redireciona para o módulo principal da Aplicação&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9ntFp-F7QLPN8F0OSKsR-48" connectable="0" vertex="1">
+                    <mxGeometry x="-0.0066" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-50" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="450" y="1220" width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-51" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-50" vertex="1">
+                    <mxGeometry width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-52" value="&amp;lt;&amp;lt;module&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-50" vertex="1">
+                    <mxGeometry x="80" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-53" value="ModalLoginModule" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-50" vertex="1">
+                    <mxGeometry x="80" y="58" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-54" value="Este módulo, é o responsável pela funcionalidade de login de usuário e criação de usuário da aplicação." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-50" vertex="1">
+                    <mxGeometry x="51.19" y="130" width="117.62" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9ntFp-F7QLPN8F0OSKsR-41" target="9ntFp-F7QLPN8F0OSKsR-51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-57" value="&lt;b&gt;HomeModule contém ModalLoginModule&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9ntFp-F7QLPN8F0OSKsR-56" connectable="0" vertex="1">
+                    <mxGeometry x="-0.031" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-59" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="450" y="1490" width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-60" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-59" vertex="1">
+                    <mxGeometry width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-61" value="&amp;lt;&amp;lt;service&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-59" vertex="1">
+                    <mxGeometry x="80" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-62" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-59" vertex="1">
+                    <mxGeometry x="80" y="58" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-63" value="Aplicação contém um diretório service que será responsável por fazer as requisições do nosso cliente para o nosso backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-59" vertex="1">
+                    <mxGeometry x="51.19" y="130" width="117.62" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9ntFp-F7QLPN8F0OSKsR-51" target="9ntFp-F7QLPN8F0OSKsR-60" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-70" value="&lt;b&gt;Utilizar os Services da aplicação para trazer os dados para o client&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9ntFp-F7QLPN8F0OSKsR-64" connectable="0" vertex="1">
+                    <mxGeometry x="-0.04" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-65" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="450" y="1770" width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-66" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-65" vertex="1">
+                    <mxGeometry width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-67" value="&amp;lt;&amp;lt;external system&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-65" vertex="1">
+                    <mxGeometry x="49.99999999999999" y="10" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-68" value="NestJs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-65" vertex="1">
+                    <mxGeometry x="80" y="58" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-69" value="Nosso Backend responsável por executar todas as features relacionadas com a regra de negócio da nossa aplicação." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-65" vertex="1">
+                    <mxGeometry x="51.19" y="130" width="117.62" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9ntFp-F7QLPN8F0OSKsR-60" target="9ntFp-F7QLPN8F0OSKsR-66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-72" value="&lt;b&gt;Requisições a HTTP(S) para o nosso backend&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9ntFp-F7QLPN8F0OSKsR-71" connectable="0" vertex="1">
+                    <mxGeometry x="-0.0111" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-73" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="773" y="189" width="190" height="182.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-75" value="&amp;lt;&amp;lt;external system&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-73" vertex="1">
+                    <mxGeometry x="15" y="8.29" width="160" height="24.87" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-76" value="Front End Angular" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-73" vertex="1">
+                    <mxGeometry x="34.545" y="48.09" width="120.91" height="24.87" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-77" value="Aqui é onde começa o primeiro ponto de interação entre o Frontend e o Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-73" vertex="1">
+                    <mxGeometry x="44.20954545454545" y="107.78181818181818" width="101.5809090909091" height="24.872727272727275" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-78" value="" style="group;fontStyle=1" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="920" y="445" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-79" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;labelBorderColor=none;container=0;fillColor=#638CFF;" parent="9ntFp-F7QLPN8F0OSKsR-78" vertex="1">
+                    <mxGeometry width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-80" value="&amp;lt;&amp;lt;external_person&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-78" vertex="1">
+                    <mxGeometry x="60" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-81" value="Usário" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-78" vertex="1">
+                    <mxGeometry x="60" y="100" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-82" value="Usuário que interage com o sistema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;container=0;fontColor=#FFFFFF;" parent="9ntFp-F7QLPN8F0OSKsR-78" vertex="1">
+                    <mxGeometry x="31.189999999999998" y="130" width="117.62" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-83" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0cm9rZT0iI2ZmZmZmZiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgdmlld0JveD0iMjAgMjAgNjAgNjAiIGhlaWdodD0iNDgwIiB3aWR0aD0iNDgwIiBmaWxsPSIjZmZmZmZmIj4mI3hhOyYjeGE7PGcgc3Ryb2tlLXdpZHRoPSIwIiBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiLz4mI3hhOyYjeGE7PGcgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIi8+JiN4YTsmI3hhOzxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4gPGc+IDxnPiA8cGF0aCBkPSJNODAsNzEuMlY3NGMwLDMuMy0yLjcsNi02LDZIMjZjLTMuMywwLTYtMi43LTYtNnYtMi44YzAtNy4zLDguNS0xMS43LDE2LjUtMTUuMmMwLjMtMC4xLDAuNS0wLjIsMC44LTAuNCBjMC42LTAuMywxLjMtMC4zLDEuOSwwLjFDNDIuNCw1Ny44LDQ2LjEsNTksNTAsNTljMy45LDAsNy42LTEuMiwxMC44LTMuMmMwLjYtMC40LDEuMy0wLjQsMS45LTAuMWMwLjMsMC4xLDAuNSwwLjIsMC44LDAuNCBDNzEuNSw1OS41LDgwLDYzLjksODAsNzEuMnoiLz4gPC9nPiA8Zz4gPGVsbGlwc2Ugcnk9IjE2LjUiIHJ4PSIxNC45IiBjeT0iMzYuNSIgY3g9IjUwIi8+IDwvZz4gPC9nPiA8L2c+JiN4YTsmI3hhOzwvc3ZnPg==;" parent="9ntFp-F7QLPN8F0OSKsR-78" vertex="1">
+                    <mxGeometry x="70.485" y="50" width="39.03" height="39.03" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9ntFp-F7QLPN8F0OSKsR-79" target="9ntFp-F7QLPN8F0OSKsR-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9ntFp-F7QLPN8F0OSKsR-85" value="&lt;b&gt;A interação do usuário com o&lt;/b&gt;&lt;div&gt;&lt;b&gt;sistema se inicia nesse ponto&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9ntFp-F7QLPN8F0OSKsR-84" connectable="0" vertex="1">
+                    <mxGeometry x="0.1074" y="-1" relative="1" as="geometry">
+                        <mxPoint x="28" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

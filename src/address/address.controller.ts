@@ -12,23 +12,4 @@ export class AddressController {
     return this.addressService.create(createAddressDto);
   }
 
-  @Get()
-  findAll() {
-    return this.addressService.findAll();
-  }
-
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.addressService.findOne(+id);
-  }
-
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateAddressDto: UpdateAddressDto) {
-    return this.addressService.update(+id, updateAddressDto);
-  }
-
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.addressService.remove(+id);
-  }
 }
